@@ -87,3 +87,75 @@
 // }
 // Squares(5);
 // Squares(7);
+//
+// Урок 4 Функции продолжение. 
+// Напишите программу, которая принимает на вход число (А) и выдает суммц чисел от 1 до А.
+// 
+// int SumNum(int num)
+// {
+//     int all_sum = 0;
+//     for (int i = 1; i <= num; i++)
+//     {
+//         all_sum += i;
+//     }
+//     return all_sum;
+
+// }
+
+// Console.WriteLine(SumNum(4));
+// Console.WriteLine(SumNum(8));
+// Console.WriteLine(SumNum(2));
+// 
+// Напишите программу, которая принимает число на вход число и выдает количество цифр в числе.
+// вариант №1
+// void sum(int num)
+// {
+//     int i = 0;
+//     while (num > 0)
+//     {
+//         num = num / 10;
+//         i = i + 1;
+//     }
+
+//     Console.WriteLine(i);
+// }
+// sum(12345);
+// 
+// Вариант №2 
+// int sum (int num)
+// {
+//     string result = num.ToString();
+//     return result.Length;
+// }
+
+// Console.WriteLine(sum(1234));
+// Console.WriteLine(sum(123));
+// Console.WriteLine(sum(54322));
+// 
+// Напишите пограмму, которая принимает на вход число N и выводаёт произведение чисел от 1 до N
+// 
+// int PowNum(int num)
+// {
+//     int all_pow = 1;
+//     for (int i = 1; i <= num; i++)
+//     {
+//         all_pow *= i;
+//     }
+
+//     return all_pow;
+// }
+// Console.WriteLine(PowNum(5));
+// 
+// Напишите программу, которая выводит массив из 8элементов, заполненный нулями и единицами в случайном порядке.
+// [1,0,1,1,0,1,0,0]
+// 
+// int[] array = new int[8];
+// for (int i = 0; i < 8; i++)
+// {
+//     array[i] = new Random().Next(2);
+//     Console.Write($"{array[i]}|, ");
+// }
+// 
+
+
+
