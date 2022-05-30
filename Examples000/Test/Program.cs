@@ -156,6 +156,43 @@
 //     Console.Write($"{array[i]}|, ");
 // }
 // 
+// Урок 5 Функции продолжение. 
+//  Сортировка по убыванию 
+// void Print(int[] arr)
+// {
+//     for (int i = 0; i < arr.Length; i++)
+//     {
+//         Console.Write($"{arr[i]}  ");
+//     }
+//     Console.WriteLine();
+// }
+// void SelectionSort(int[] arr)
+// {
+//     int size = arr.Length;
+//     for (int i = 0; i < size - 1; i++)
+//     {
+        
+//         int n_max = i;
+//         for (int j = i + 1; j < size; j++)
+//         {
+//          if (arr[n_max] > arr[j])
+//            {
+//              n_max = j;
+//            }  
+//         }
+//       (arr[i], arr[n_max]) = (arr[n_max], arr[i]);
+        
+//     }
+// }
+// int[] my_arr = { 78, -32, 5, 39, 59, -7, -78, 3, 76, };
+// Print(my_arr);
+// SelectionSort(my_arr);
+// Print(my_arr);
+// 
+// 1) Задайте массив из 12 элементов, заполненный случайными числами из промежутка [-9, 9]
+//    найдите сумму отрицательных элементов массива. 
+// 
+
 
 
 
