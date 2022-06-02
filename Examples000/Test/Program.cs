@@ -280,8 +280,82 @@
 // int[] arr_2 = MassNums(10);
 // Print(arr_2);
 // ChangeNum(arr_2);
-// 
+
 // Задайте массив. Напишите программу, которая определяет, присутствие ли заданное число в массиве.
-// 
+// 4 [6,7,19,345,3] - > нет 
+// 3 [7,7,19,345,3] - > да 
+
+// void Print(int[] arr)
+// {
+//     int size = arr.Length;
+
+//     for (int i = 0; i < size; i++)
+//     {
+//         Console.Write($"{arr[i]} ");
+//     }
+//     Console.WriteLine();
+// }
+// int[] MassNums(int size)
+// {
+//     int[] arr = new int[size];
+
+//     for (int i = 0; i < size; i++)
+//     {
+//         arr[i] = new Random().Next(0, 10);
+//     }
+//     return arr;
+// }
+// void Search ( int num, int [] arr)
+// {   string flag = ("No");
+//     for (int i = 0; i < arr.Length; i++)
+//     {
+//          if (num == arr[i])
+//          {
+//               flag = "yes";
+//               break; 
+//          }
+//     }
+//     Console.WriteLine(flag);
+// }
+
+// int[] arr_1 = MassNums(10);
+// Print(arr_1);
+// Search(5, arr_1);
+
+// int[] arr_2 = MassNums(10);
+// Print(arr_2);
+// Search(5, arr_2);
+
+// Задайте одномерный массив из 123 случайных чисел.
+// Найдите количество элементов массива, значение которых лежат в отрезке [10,99] 
+// void PrintArray(int[] arr)
+// {
+//     int size = arr.Length;
+
+//     for (int i = 0; i < size; i++)
+//     {
+//         Console.Write($"{arr[i]} ");
+//     }
+//     Console.WriteLine(arr[size - 1]);
+// }
+// int[] MassNums(int size)
+// {
+//     int[] arr = new int[size];
+
+//     for (int i = 0; i < size; i++)
+//     {
+//         arr[i] = new Random().Next(0, 20);
+//     }
+//     return arr;
+// }
+// int[] arr = MassNums(20);
+
+// int count = 0;
+// for (int i = 0; i < arr.Length; i++)
+// {
+//     if (arr[i] < 100 && arr[i] >= 10) count++;
+// }
+// Console.WriteLine(count);
+// PrintArray(arr);
 
 
